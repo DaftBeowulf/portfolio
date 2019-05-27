@@ -823,7 +823,7 @@ ul.actions {
   padding: 2em;
 
   &.style1 {
-    padding: 3em 2em 3.5em 2em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
 
     h3 {
       margin-bottom: 0.5em;
@@ -831,6 +831,7 @@ ul.actions {
   }
 
   &.style2 {
+    min-height: 28em;
     h3 {
       margin-bottom: 0.25em;
     }
@@ -1131,6 +1132,7 @@ body > article {
 
     .image {
       margin: 0 auto 2em auto;
+      height: 30em;
     }
   }
 }
@@ -1314,7 +1316,7 @@ body > article {
 
     .image {
       width: 15em;
-      height: 15em;
+      height: 20em;
       margin-bottom: 0;
     }
 
