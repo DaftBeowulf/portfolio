@@ -189,7 +189,7 @@ textarea,
 select {
   font-family: "Open Sans", sans-serif;
   line-height: 1.85em;
-  color: #888;
+  color: #646464;
   font-weight: 300;
   font-size: 13pt;
 }
@@ -1337,13 +1337,13 @@ form .actions:last-child {
   margin-bottom: 0;
 }
 form ::-webkit-input-placeholder {
-  color: #555 !important;
+  color: #d4cece !important;
 }
 form :-moz-placeholder {
-  color: #555 !important;
+  color: #d4cece !important;
 }
 form ::-moz-placeholder {
-  color: #555 !important;
+  color: #d4cece !important;
 }
 form :-ms-input-placeholder {
   color: #555 !important;
@@ -1652,10 +1652,13 @@ ul.actions li:first-child {
   margin-bottom: 0.5em;
 }
 .box.style2 {
-  min-height: 28em;
+  min-height: 25.5em;
 }
 .box.style2 h3 {
   margin-bottom: 0.25em;
+}
+.box.style2:first-child {
+  max-height: 20em;
 }
 .box.style2 .image {
   position: relative;
@@ -1663,6 +1666,17 @@ ul.actions li:first-child {
   top: 2em;
   margin: -4em 0 4em -4em;
   width: auto;
+  max-height: 280px;
+}
+@media screen and (max-width: 980px) {
+  .box.style2 .image {
+    max-height: 225px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .box.style2 .image {
+    max-height: 205px;
+  }
 }
 
 /* Icons */
