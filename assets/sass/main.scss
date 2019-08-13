@@ -831,8 +831,9 @@ ul.actions {
 
     img {
       max-width: 61px;
+      height: 61px;
       @include breakpoint("<=large") {
-        max-height: 51px;
+        height: 51px;
       }
     }
   }
