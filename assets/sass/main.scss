@@ -828,6 +828,13 @@ ul.actions {
     h3 {
       margin-bottom: 0.5em;
     }
+
+    img {
+      max-width: 61px;
+      @include breakpoint("<=large") {
+        max-height: 51px;
+      }
+    }
   }
 
   &.style2 {
@@ -846,7 +853,7 @@ ul.actions {
       top: 2em;
       margin: -4em 0 4em -4em;
       width: auto;
-      max-height: 280px;
+      max-height: 10px;
       @include breakpoint("<=medium") {
         max-height: 225px;
       }
